@@ -31,9 +31,6 @@
 ## URL
 
 ・開発環境: http://localhost/
-・お問い合わせフォーム確認ページ: http://localhost/confirm
-・サンクスページ: http://localhost/thanks
-・管理画面: http://localhost/admin
 ・ユーザ登録ページ: http://localhost/register
 ・ログインページ: http://localhost/login
 ・phpMyAdmin: http://localhost:8080/
