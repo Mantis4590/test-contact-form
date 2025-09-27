@@ -1,0 +1,45 @@
+/* ヘッダー全体 */
+.header {
+    position: relative;
+    /* 子要素の位置指定の基準 */
+    width: 100%;
+    border-bottom: 1px solid #e6e1da;
+    background: #fff;
+    padding: 16px 32px;
+    box-sizing: border-box;
+}
+
+/* タイトルを中央寄せ */
+.header__title {
+    font-size: 28px;
+    color: #918a7f;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* ボタンを右上に配置 */
+.header-right {
+    position: absolute;
+    right: 50px;
+    /* ヘッダーの内側に揃える */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ログイン／登録ボタン */
+.login-button {
+    background: #f6f7f4;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-size: 14px;
+    color: #918a7f;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.login-button:hover {
+    background: #f4f0eb;
+    border-color: #918a7f;
+}

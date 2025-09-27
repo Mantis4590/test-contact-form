@@ -1,0 +1,22 @@
+.contact-thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.contact-thanks__title {
+    margin-bottom: 20px;
+}
+
+.contact-thanks__button {
+    display: inline-block;
+    background-color: #837769;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+}

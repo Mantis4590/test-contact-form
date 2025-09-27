@@ -1,0 +1,75 @@
+.auth-card {
+    background-color: #f2ece7;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.auth-content {
+    padding-top: 15px;
+}
+
+.auth-title {
+    margin-top: 0;
+    color: #918a7f;
+    font-size: 24px;
+}
+
+.auth-card form {
+    padding: 40px 30px;
+    margin: 20px auto;
+    background-color: #fff;
+    width: 600px;
+    color: #adaaa0;
+}
+
+/* フォーム入力 */
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 70%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    background-color: #f5f5f5;
+}
+
+/* エラーメッセージ */
+.error-message {
+    font-size: 13px;
+    color: red;
+    margin-top: 5px;
+}
+
+/* ボタン */
+.form-actions {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.btn-submit {
+    background-color: #7d6b5a;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: #5a4e44;
+}

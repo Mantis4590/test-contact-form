@@ -1,0 +1,206 @@
+/* 管理画面全体 */
+.admin {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    font-size: 14px;
+    color: #333;
+}
+
+/* タイトル */
+.admin-title__content {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #8e8074;
+}
+
+/* 検索フォーム */
+.admin-search {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.admin-search input,
+.admin-search select,
+.admin-search button,
+.admin-search a {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.admin-search button {
+    background-color: #5a4e44;
+    color: #fff;
+    cursor: pointer;
+}
+
+.admin-search a {
+    text-decoration: none;
+    background-color: #d3c6b9;
+    color: #333;
+    display: inline-block;
+}
+
+/* テーブル */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.admin-table th {
+    background-color: #8a7765;
+    color: #fff;
+}
+
+.admin-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* 詳細ボタン */
+.detail-btn {
+    background-color: #fff;
+    border: 1px solid #8a7765;
+    color: #8a7765;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.detail-btn:hover {
+    background-color: #8a7765;
+    color: #fff;
+}
+
+/* モーダル */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.modal-toggle:checked+.detail-btn+.modal {
+    display: flex;
+    
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    width: 600px;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+
+.modal-content p {
+    margin-bottom: 20px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.modal-row {
+    display: flex;
+    align-items: flex-start;
+    /* 値が複数行でも上揃え */
+    margin-bottom: 10px;
+}
+
+.modal-row .label {
+    width: 200px;
+    /* ラベル幅を固定 */
+    font-weight: bold;
+    flex-shrink: 0;
+    /* ラベルの幅を固定する */
+}
+
+.modal-row .value {
+    flex: 1;
+    /* 値は残りの幅を使う */
+    word-break: break-word;
+    /* 長文を折り返す */
+}
+
+.delete-btn {
+    display: block;
+    margin: 20px auto;
+}
+
+/* ページネーション全体 */
+.pagination {
+    display: flex;
+    justify-content: right;
+    margin: 20px 0;
+    list-style: none;
+    padding: 0;
+}
+
+/* ページネーションの各リンク */
+.pagination li {
+    margin: 0 3px;
+}
+
+.pagination li a,
+.pagination li span {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* ホバー時 */
+.pagination li a:hover {
+    background-color: #eee;
+}
+
+/* アクティブなページ */
+.pagination li.active span {
+    background-color: #8a7765;
+    color: #fff;
+    border-color: #8a7765;
+}
+
+a.export-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #3490dc;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a.export-btn:hover {
+    background: #2779bd;
+}

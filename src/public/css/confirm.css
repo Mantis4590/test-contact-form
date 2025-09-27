@@ -1,0 +1,87 @@
+.contact-confirm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.contact-confirm__title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #6b5c4a;
+    font-weight: bold;
+}
+
+.contact-confirm__form {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.contact-confirm__item {
+    display: table;
+    width: 100%;
+}
+
+.contact-confirm__label,
+.contact-confirm__text {
+    display: table-cell;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.contact-confirm__label {
+    width: 30%;
+    background: #c7b29a;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.contact-confirm__text {
+    width: 70%;
+    background: #fff;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.contact-confirm__item:first-child .contact-confirm__text {
+    border-top: 1px solid #ddd;
+}
+
+.contact-confirm__actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-confirm__button {
+    padding: 5px 30px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #6b5c4a;
+    color: #fff;
+}
+
+.contact-firm__button--submit {
+    background: #6b5c4a;
+    color: #fff;
+}
+
+.contact-confirm__button-link {
+    background: none;
+    border: none;
+    color: #827669;
+    /* リンク色（送信ボタンと揃える or 青でもOK） */
+    text-decoration: underline;
+    cursor: pointer;
+    font: inherit;
+    /* 親と同じフォントにする */
+    padding: 0;
+    /* ボタンの余計な余白を消す */
+}
+
