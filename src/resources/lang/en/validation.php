@@ -1,6 +1,14 @@
 <?php
 
 return [
+    'required' => ':attributeを入力してください',
+    'email' => 'メールアドレスはメール形式で入力してください',
+
+    'attributes' => [
+        'email' => 'メールアドレス',
+        'password' => 'パスワード',
+        'name' => 'お名前',
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -43,7 +51,6 @@ return [
     'digits_between' => 'The :attribute must be between :min and :max digits.',
     'dimensions' => 'The :attribute has invalid image dimensions.',
     'distinct' => 'The :attribute field has a duplicate value.',
-    'email' => 'The :attribute must be a valid email address.',
     'ends_with' => 'The :attribute must end with one of the following: :values.',
     'enum' => 'The selected :attribute is invalid.',
     'exists' => 'The selected :attribute is invalid.',
@@ -107,7 +114,6 @@ return [
     'prohibited_unless' => 'The :attribute field is prohibited unless :other is in :values.',
     'prohibits' => 'The :attribute field prohibits :other from being present.',
     'regex' => 'The :attribute format is invalid.',
-    'required' => 'The :attribute field is required.',
     'required_array_keys' => 'The :attribute field must contain entries for: :values.',
     'required_if' => 'The :attribute field is required when :other is :value.',
     'required_unless' => 'The :attribute field is required unless :other is in :values.',
@@ -158,6 +164,5 @@ return [
     |
     */
 
-    'attributes' => [],
 
 ];
